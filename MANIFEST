@@ -1,0 +1,13 @@
+Build.PL
+Changes
+MANIFEST
+README
+lib/POE/Component/IRC/Plugin/CSS/PropertyInfo.pm
+lib/POE/Component/IRC/Plugin/CSS/PropertyInfo/Data.pm
+t/00-load.t
+t/pod-coverage.t
+t/pod.t
+t/kwalitee.t
+examples/css_bot.pl
+Makefile.PL
+META.yml
