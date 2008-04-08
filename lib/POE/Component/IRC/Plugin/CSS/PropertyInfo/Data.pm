@@ -3,6 +3,8 @@ package POE::Component::IRC::Plugin::CSS::PropertyInfo::Data;
 use strict;
 use warnings;
 
+our $VERSION = '0.001';
+
 sub _make_property_data;
 sub _make_vt_data;
 
