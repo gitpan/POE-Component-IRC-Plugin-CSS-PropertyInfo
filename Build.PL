@@ -7,12 +7,14 @@ my $builder = Module::Build->new(
     license             => 'perl',
     dist_author         => 'Zoffix Znet <zoffix@cpan.org>',
     dist_version_from   => 'lib/POE/Component/IRC/Plugin/CSS/PropertyInfo.pm',
+    configure_requires => { 'Module::Build' => 0.40 },
     build_requires => {
         'Test::More' => 0,
     },
     requires => {
         'POE::Component::IRC::Plugin::BaseWrap' => 0.001,
         'POE'                                   => 0.9999,
+        perl                                    => '5.006',
     },
     add_to_cleanup      => [ 'POE-Component-IRC-Plugin-CSS-PropertyInfo-*' ],
     create_makefile_pl => 'traditional',

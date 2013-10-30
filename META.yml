@@ -1,25 +1,29 @@
 ---
-name: POE-Component-IRC-Plugin-CSS-PropertyInfo
-version: 0.002
+abstract: 'lookup CSS property information from IRC'
 author:
   - 'Zoffix Znet <zoffix@cpan.org>'
-abstract: lookup CSS property information from IRC
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-requires:
-  POE: 0.9999
-  POE::Component::IRC::Plugin::BaseWrap: 0.001
 build_requires:
   Test::More: 0
+configure_requires:
+  Module::Build: 0.4
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: POE-Component-IRC-Plugin-CSS-PropertyInfo
 provides:
   POE::Component::IRC::Plugin::CSS::PropertyInfo:
     file: lib/POE/Component/IRC/Plugin/CSS/PropertyInfo.pm
-    version: 0.002
+    version: 0.003
   POE::Component::IRC::Plugin::CSS::PropertyInfo::Data:
     file: lib/POE/Component/IRC/Plugin/CSS/PropertyInfo/Data.pm
-    version: 0.001
-generated_by: Module::Build version 0.2808
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+    version: 0.003
+requires:
+  POE: 0.9999
+  POE::Component::IRC::Plugin::BaseWrap: 0.001
+  perl: 5.006
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.003

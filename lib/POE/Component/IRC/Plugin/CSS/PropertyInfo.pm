@@ -3,7 +3,7 @@ package POE::Component::IRC::Plugin::CSS::PropertyInfo;
 use warnings;
 use strict;
 
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 use base 'POE::Component::IRC::Plugin::BaseWrap';
 use POE qw(Component::IRC::Plugin::CSS::PropertyInfo::Data);

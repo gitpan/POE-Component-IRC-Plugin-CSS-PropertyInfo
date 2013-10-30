@@ -1,8 +1,11 @@
 Revision history for POE-Component-IRC-Plugin-CSS-PropertyInfo
 
-0.002   Apr 8, 2008
-        added version to data file
+0.003   2013-10-30
+        - Minor changes to comply to the specs and Kwalitee game
 
-0.001   Mar 30, 2008
-        First version, released on an unsuspecting world.
+0.002   2008-04-08
+        - added version to data file
+
+0.001   2008-03-30
+        - First version, released on an unsuspecting world.
 
